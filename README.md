@@ -3,21 +3,25 @@ just some fonts that ive made
 
 # Converting fonts into psuedo bitmap fonts
 You're gonna need...
-[FontForge](https://fontforge.org/en-US/)
+[FontForge](https://fontforge.org/en-US/), 
 [Bits'n'Picas by KreativKorp](https://github.com/kreativekorp/bitsnpicas)
 
-1. open your source TTF in FontForge
+1. open your base TTF in **FontForge**
 2. `Element` -> `Bitmap Strikes Available` -> Set pixel sizes to desired render size
-   2b. You may need to remove all the glyphs you don't need in order for this to work. You can do this by:
-   2c. Selecting the Glyphs you want to keep, going to `Edit` -> `Selection` -> `Invert Selection`, and then going to `Encoding` -> `Detatch and Remove Glyphs`
-4. `Element` -> `Regenerate Bitmap Glyphs` -> Same size, select 'All Glyphs' on the dropdown on the top of the dialogue window
-5. `File` -> `Generate Fonts` (should have all the right settings already, save it as a .BDF
-   5b. (set number it asks to 72)
 
-7. Open the .BDF in Bits'N'Picas
-8. `File` -> `Export`
-9. Pixel Width & Pixel height = 100
-10. Export
+   - You may need to remove all the glyphs you don't need in order for this to work. You can do this by:
+
+   - Selecting the Glyphs you want to keep, going to `Edit` -> `Selection` -> `Invert Selection`, and then going to `Encoding` -> `Detatch and Remove Glyphs`
+
+3. `Element` -> `Regenerate Bitmap Glyphs` -> Same size, select 'All Glyphs' on the dropdown on the top of the dialogue window
+4. `File` -> `Generate Fonts` (should have all the right settings already, save it as a .BDF
+   - (set number it asks to 72)
+
+
+5. Open the .BDF in **Bits'N'Picas**
+6. `File` -> `Export`
+7. Pixel Width & Pixel height = 100
+8. Export
 
 # Font resources
 
